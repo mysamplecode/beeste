@@ -1,0 +1,12 @@
+#javo-partner-item-slider-container #grid-listing>.row>.col-md-12>img{width:150px; margin-right:10px; border:1px solid #ddd;}
+#javo-partner-item-slider-container #grid-listing>.row>.col-md-12{max-height:150px; overflow:hidden;}
+#javo-partner-item-slider-container .item>.row{display:table; margin:0 auto;}
+.javo-partner-item-slider .partner-slide-arrow .controls>a{
+	margin-right:0px;
+	position:absolute;
+	margin-top:45px;
+	z-index:10;
+	width:30px;
+}
+.javo-partner-item-slider .partner-slide-arrow .controls>a.left{left:0; padding-left:9px;}
+.javo-partner-item-slider .partner-slide-arrow .controls>a.right{right:0;}

@@ -1,0 +1,41 @@
+.javo-events-masonry {padding: 20px 0 0 20px;/*overflow:hidden;*/text-align: center;}
+.javo-events-masonry.fs_grid_block {padding: 0;}
+.fs_blog_module {font-size: 0;line-height: 0;text-align: left;}
+.javo-events-masonry .blogpost_preview_fw {width: 20%;display: inline-block;vertical-align: top;}
+.javo-events-masonry .fw_preview_wrapper {padding: 9px;margin: 0 20px 20px 0;text-align: left;}
+.javo-events-masonry .fw_preview_wrapper {transition: all 500ms;}
+.anim_el {transition: all 300ms;}
+.javo-events-masonry .fw_preview_wrapper.loading, .anim_el.loading {opacity: 0;transform: translateY(100px);}
+.javo-events-masonry .fw_preview_wrapper.no_pf {margin-top: 15px;}
+.javo-events-masonry .fw_preview_wrapper iframe {max-height: 200px;}
+.javo-events-masonry .fw_preview_wrapper img {width: 100%;height: auto;}
+.post_preview_wrapper .pf_output_container img,.post_preview_wrapper .pf_output_container iframe {display: block;}
+.post_preview_wrapper.no_pf .pf_output_container {display: none;}
+.has_pf .pf_output_container {margin-bottom: 6px;}
+.post_preview_wrapper .pf_output_container {margin-bottom: 9px;}
+.javo-events-masonry .fw_preview_wrapper .blogpost_title {margin: 17px 14px 16px 14px;padding-bottom: 4px;}
+.fw_preview_footer {padding: 14px 12px 9px 12px;}
+.fw_preview_footer .block_likes {padding-top: 5px;}
+.javo-event-masonry-cnt {margin: 12px 0 41px 0;}
+ul.javo-event-masonry-cnt {margin-left:0; padding-left:0;}
+.javo-event-masonry-cnt li {display: inline-block;margin-right: 25px;}
+.javo-event-masonry-cnt li:before,.javo-event-masonry-cnt li:after {display: none;}
+.javo-event-masonry-cnt li a {font-size: 13px;color: #454545; cursor:pointer; display:block; }
+.javo-event-masonry-cnt li.selected a{color:red; padding:5px; }
+.javo-events-masonry .javo-event-masonry-cnt {text-align: left;margin: 1px 10px 23px 0px;}
+.fullscreen-gallery ul.javo-event-masonry-cnt {margin: 0;padding: 5px 31px 7px 31px;text-align: left;}
+.fullscreen-gallery ul.javo-event-masonry-cnt li a {font-size: 13px;}
+.isotope,.isotope .isotope-item {-webkit-transition-duration: 0.8s;-moz-transition-duration: 0.8s;transition-duration: 0.8s;}
+.isotope {-webkit-transition-property: height, width;-moz-transition-property: height, width;transition-property: height, width;}
+.isotope .isotope-item {-webkit-transition-property: -webkit-transform, opacity;-moz-transition-property: -moz-transform, opacity;transition-property: transform, opacity;}
+
+.fw_preview_wrapper {background: #fff;border-radius: 1px;border:1px solid #ddd;}
+.entry-content .fw_preview_wrapper h6 {line-height:20px; font-size:15px; text-transform:uppercase; padding:9px 2px 0 2px; margin-top:0px;}
+
+.fw_preview_wrapper .event-tag {color:red; font-size:0.85em;}
+.fw_preview_wrapper .event-title {color:#454545; text-transform:uppercase;font-size:0.85em;}
+
+/** event masorny fixing margin, padding width confiction VC **/
+.fw_preview_wrapper {margin-bottom:20px !important;}
+.javo-events-masonry {padding: 0px 0px 0 20px !important;}
+.javo-events-masonry .blogpost_preview_fw {width:24.9% !important;}

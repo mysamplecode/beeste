@@ -1,0 +1,608 @@
+/*
+Theme Name: Javo Directory
+Theme URI: http://javothemes.com/directory
+Author: Javo
+Author URI: http://javothemes.com
+Version: 2.1.0
+Description: Javo Powerfull Directory Wordpress Themes.
+Tags: one-column, two-columns, left-sidebar,right-sidebar, custom-header, custom-menu, editor-style, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+@charset "utf-8";
+@import url("//fonts.googleapis.com/css?family=Raleway:100, 400,300,600,700,500,200|-1:200,300,400,600,800&amp;subset=latin,latin-ext");
+@import url("//fonts.googleapis.com/css?family=Oswald:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic");
+@import url("assets/bootstrap/bootstrap.min.css");  /** defaut bootstrap **/
+@import url("assets/css/font-awesome.css");   /** awesome fonts **/
+@import url('assets/css/common.css');
+
+html, body{ font:13px/26px 'Raleway'; height:100%; }
+body{ overflow-y:scroll !important; }
+img{ border:none; }
+a{ text-decoration:none; color:#333; font-size: 17px;}
+a:hover{ text-decoration:none; color:#a1a1a1; }
+html, body, h1, h2, h3, h4, h5, h6 { color:#646464;}
+.nav-next, alignright{text-decoration:underline;}
+.wpb_row:after{ content:' '; display:table; clear:both; } /*  Compatibility Visual Composer ver4.3.2 */
+
+
+/** widget top right **/
+.widget_top_menu_wrap{ display:block; margin:11px -40px; }
+.widget_top_menu_wrap li {
+	display:inline-block;
+	line-height:20px;
+	list-style-type: none;
+	margin-right:5px;
+	font-weight: 600;
+	font-family:'Open Sans', sans-seif;
+	font-size: 17px;
+}
+.widget_top_menu_wrap .right-menu-wrap {padding:4px 0 0 5px; }
+.widget_top_menu_wrap .right-menu-wrap i {font-size:17px;}
+.widget_top_menu button.right-menu {border:0; background:none;}
+
+
+/** widget right menu **/
+.right_menu_inner {background:red;}
+.right_menu_inner .navmenu {background:#222; padding:30px 0 0 20px; list-style-type: none;}
+.right_menu_inner .navmenu a {color:#fff; font-size: 17px;}
+.right_menu_inner .navmenu-default, .right_menu_inner .navbar-default .right_menu_inner .navbar-offcanvas {border-color:none;}
+
+
+
+
+.javo_somw_panel.row.mobile-display-panel form,
+.javo_somw_panel.row.mobile-display-panel .javo_somw_list_inner{ padding:0 15px; }
+body.home .upb-background-text .uvc-heading .uvc-main-heading h2{
+ text-shadow: 3px 0px 30px #322F2F;
+}
+.member-page {
+min-height:500px;
+}
+.member-page1 {
+min-height:500px;
+}
+.widget_top_menu_wrap {
+margin:11px 0px 0 0 !important;
+padding:0 !important;
+}
+.javo_mhome_map_output .thumb-wrap .three-inner-button>a {
+  font-size: 12px;
+}
+#javo-navibar .navbar-right .right-menus .widget_top_menu_wrap .widget_top_menu a:hover{
+color:#BDBDBD;
+}
+#javo-navibar .navbar-right .right-menus .widget_top_menu_wrap .widget_top_menu a{
+font-size:15px !important;
+}
+#header-one-line #javo-navibar ul.navbar-left .menu-item a, #header-one-line #javo-navibar>form{
+font-size:15px !important;
+}
+#loginform p {
+float: left;
+width: 100%;
+margin-bottom: 25px;
+}
+#loginform p:nth-child(even) {
+float:right;
+}
+#loginform p input.input {
+width: 100%;
+background-color: #FFF;
+box-shadow: 0px 0px 6px rgba(44, 33, 33, 0.7);
+height: 38px;
+border-radius: 5px;
+}
+#loginform p input.input:focus {
+  border: 1px solid #AAA !important;
+}
+#loginform p.forgetmenot {
+width: 100%;
+}
+#loginform p.submit {
+width: 100%;
+}
+#loginform p.submit input#wp-submit {
+width: 87px;
+height: 40px;
+background-color: rgb(113, 113, 113);
+border: medium none;
+color: rgb(255, 255, 255);
+font-size: 18px;
+border-radius: 5px;
+margin: 0px auto;
+display: table;
+float: left;
+}
+.login-page {
+padding:0 !important;
+}
+ul.tml-action-links {
+float: left;
+padding: 0px 0px 0px 15px;
+margin: 12px 0;
+}
+ul.tml-action-links li:nth-child(1) {
+margin-bottom: 9px;
+}
+#theme-my-login {
+float: left;
+width: 100%;
+padding: 0px;
+}
+.inner-items {
+word-wrap: break-word;
+}
+span.map-box-massage-bold {
+font-weight: bold;
+font-style: italic;
+}
+.map-inner-search #javo-single-search-form {
+  text-align: center;
+  width: 108.4%;
+  padding: 0px;
+  margin: 0 0 0 -9px;
+}
+.map-inner-search #javo-single-search-form .search-form-type {
+  display: inline-block;
+  width: 100%;
+  height: 37px;
+  float: left;
+}
+.map-inner-search #javo-single-search-form .search-type-a-inner {
+  position: relative;
+  background: none;
+  height: 34px;
+  width: 100%;
+  padding: 0px;
+}
+.map-inner-search #javo-single-search-form .search-type-a-inner .search-box-inline-position {
+  height: 34px;
+  width: 100%;
+  font-size: 13px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: none;
+}
+.map-inner-search #javo-single-search-form .search-type-a-inner .search-box-inline-position input {
+ text-align: left;
+  position: relative;
+  float: left;
+  left: 0px;
+  width: 100%;
+  padding: 5px;
+}
+.map-inner-search #javo-single-search-form div.search-box-inline-position div.inner-marker {
+  position: absolute;
+  right: 20%;
+  display: inline-block;
+  top: 10%;
+  font-size: 26px;
+  z-index: 1;
+}
+.map-inner-search #javo-single-search-form .search-type-a-inner .search-box-inline-position-button {
+  position: absolute;
+  top: 9%;
+  right: 0.5%;
+  border-radius: 4px;
+}
+.map-inner-search #javo-single-search-form .search-type-a-inner .search-submit {
+  border-color: transparent;
+  background-color: #7f7f7f;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: normal;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.map-inner-search #javo-single-search-form .search-type-a-inner {
+  position: relative;
+  background: none;
+  height: 34px;
+  width: 100%;
+  padding: 0px;
+}
+.category-list .javo-filter-column {
+  width: 100%;
+  margin-left: 0;
+}
+.javo_mhome_wrap .javo_mhome_map_lists .main-map-search-wrap {
+overflow:hidden;
+}
+form.pmpro_form div {
+float:left;
+width:100%;
+}
+#pmpro_billing_address_fields select{
+width: 238px;
+}
+.javo-top-level-menu-openner .fa-caret-up:before {
+    content: "\f0c9";
+}
+html body header#header-one-line #javo-doc-top-level-menu a {
+color:#000;
+}
+html header.main nav.navbar.affix #javo-navibar ul.nav > li.menu-item > a:hover {
+    color: #5B5A5A !important;
+}
+html header.main nav.navbar.affix #javo-navibar .navbar-right .right-menus .widget_top_menu_wrap .widget_top_menu a:hover {
+    color: #5B5A5A;
+}
+.list-inline {
+margin-bottom:0px;
+}
+.member-level {
+    margin-top: 124px;
+}
+.member-level div.javo-item-price-table ul.javo-price-item {
+    width: 23%;
+margin-right: 24px;
+color: #777;
+border-top: 5px solid #2867B6;
+border-bottom: 5px solid #DDD;
+background: #F9F9F9 none repeat scroll 0% 0%;
+-moz-transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+    -moz-box-sizing: border-box;
+}
+
+.member-level div.javo-item-price-table ul.javo-price-item:hover {
+    box-shadow: 0 0 7px rgba(167,167,167,0.5);
+}
+.member-level div.javo-item-price-table ul.javo-price-item.popular:hover {
+    box-shadow: 0 0 7px rgba(167,167,167,0.5);
+}
+.member-level div.javo-item-price-table ul.javo-price-item.popular {
+    border-top: 5px solid #df4130;
+    box-shadow: none;
+}
+.member-level div.javo-item-price-table ul.javo-price-item.popular li.submit a {
+    background: #df4130;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.submit a {
+    margin: 51px 0 14px 0;
+    background: #2867b6;
+    text-shadow: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 13px;
+}
+.member-level div.javo-item-price-table ul.javo-price-item:last-child {
+margin-right: 0;
+}
+.member-level div.javo-item-price-table ul.javo-price-item.popular li.title {
+background:transparent;
+}
+.member-level div.javo-item-price-table ul.javo-price-item .title:after {
+display:none;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.title h2 {
+       padding-top: 26px;
+    min-height: 109px;
+    margin: 0px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #777777;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.price span {
+    display: block;
+    margin: -36px 10px 0 10px;
+    min-height: 44px;
+    font-weight: bold;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.price span strong {
+    display: block;
+    font-weight: normal;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 22px;
+    color: #34495e;
+    line-height: 30px;
+    font-weight: normal;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.price {
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.attribute:after {
+display:none;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.attribute.x3 {
+    min-height: 32.4px;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.attribute span {
+       height: 20px;
+    font-size: 13px;
+    color: #34495e;
+    font-weight: normal;
+    margin-bottom: 6px;
+    min-height: inherit;
+    line-height: normal
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.attribute span i {
+display:none;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.attribute {
+    border-bottom: 1px solid #ededed;
+    line-height: 2em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.member-level div.javo-item-price-table ul.javo-price-item li.price:after {
+display:none;
+}
+.footer-bottom {
+border-bottom:0px;
+}
+.footer-wrap {
+display:none;
+}
+.login-text {
+width: 90%;
+text-align: left;
+float: left;
+}
+.javo-mobile-left-menu i, .javo-top-level-menu-openner i {
+    position: relative;
+    z-index: 10000;
+}
+#javo-doc-top-level-menu .container {
+    padding: 0 !important;
+}
+#javo-doc-top-level-menu .list-inline>li {
+float: left;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+html body header#header-one-line #javo-doc-top-level-menu a {
+    color: #818181;
+    font-weight: bold;
+}
+.footer-bottom a {
+    font-family: 'Open Sans', sans-serif;
+}
+html body.page-id-695 header.main nav.navbar.affix {
+    background-color: rgba( 35, 35, 35, 0.3);
+}
+.row.jv-input-item-video {
+margin-left: auto;
+}
+.add-item-featured-flag {
+    margin-left: 15px;
+}
+.add-item-featured-flag input[type=checkbox] {
+float: right;
+    margin-left: 11px;
+}
+@media (max-width: 1200px) {
+.member-level div.javo-item-price-table ul.javo-price-item {
+    width: 32%;
+margin-right: 30px;
+}
+}
+@media (max-width: 992px) {
+.member-level div.javo-item-price-table ul.javo-price-item {
+    width: 48%;
+}
+}
+@media (max-width: 585px) {
+.member-level div.javo-item-price-table ul.javo-price-item {
+    width: 98%;
+}
+}
+@media (min-width: 785px) {
+html body.javo-dashboard header.main nav.navbar {
+    background-color: rgba( 35, 35, 35, 1);
+}
+html body.javo-dashboard header.main nav.navbar.affix {
+    background-color: rgba( 35, 35, 35, 0.3);
+}
+html body.add-item-page header.main nav.navbar {
+    background-color: rgba( 35, 35, 35, 1);
+}
+html body.add-item-page header.main nav.navbar.affix {
+    background-color: rgba( 35, 35, 35, 0.3);
+}
+
+}
+@media (max-width: 767px) {
+header .container-fluid .navbar-header div .javo-top-level-menu-openner i {
+    top: -5px;
+}
+header .container-fluid .navbar-header div .javo-top-level-menu-openner {
+    font-size: 22px;
+    margin-right: -57px;
+}
+header .container-fluid .navbar-header .navbar-brand-wrap {
+    display: block;
+    left: 7% !important;
+    position: absolute;
+    width: 87%;
+    float: left;
+}
+header .container-fluid .navbar-header .navbar-brand-wrap .navbar-brand-inner {
+    display: table-cell;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+#header-one-line .navbar-header .navbar-brand {
+    padding: 10px 15px !important;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    width: 123px;
+}
+.login-text {
+width: 100%;
+margin-bottom: 20px !important;
+}
+.login-page {
+    padding: 0 15px !important;
+}
+}
+@media(max-width:1199px){
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.category-list {
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+  float: left;
+}
+.map-inner-search #javo-single-search-form {
+  text-align: center;
+  width: 102.4%;
+  padding: 0px;
+  margin: 0 0 0 -9px;
+}
+}
+@media(max-width:1120px){
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.map-gride-view {
+  float: right;
+  width: 18%;
+}
+.map-inner-search #javo-single-search-form div.search-box-inline-position div.inner-marker {
+  right: 14%;
+}
+}
+@media(max-width:991px){
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-6.map-inner-search {
+  width: 60%;
+  float:left;
+}
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.map-gride-view {
+  margin-top: 0;
+}
+}
+@media(max-width:850px){
+.map-inner-search #javo-single-search-form {
+width: 102.4% !important;
+}
+}
+@media(max-width:836px){
+html header#header-one-line div#javo-navibar {
+    margin: 9px 0 0 -15px !important;
+    width: 106.4%;
+    overflow: hidden;
+}
+}
+@media(max-width:785px){
+.widget_top_menu_wrap {
+    margin: 8px 0px 0 0 !important;
+    padding: 0 !important;
+}
+html header#header-one-line div#javo-navibar ul.navbar-right:not(.mobile) {
+float: left !important;
+}
+html body.mobile header#header-one-line #javo-navibar ul.nav > li.menu-item > a {
+    width: 101%;
+}
+#javo-navibar .navbar-right .right-menus .widget_top_menu_wrap .widget_top_menu a {
+    color: #818181;
+}
+}
+@media(max-width:768px){
+.map-inner-search #javo-single-search-form .search-type-a-inner .search-box-inline-position-button {
+  width: auto;
+}
+.map-inner-search #javo-single-search-form div.search-box-inline-position div.inner-marker {
+  right: 20%;
+}
+}
+@media(max-width:767px){
+#header-one-line .navbar-header .navbar-brand {
+  padding: 10px 15px !important;
+}
+.navbar-brand>img {
+  display: block;
+  width: 93px !important;
+}
+#loginform p {
+width:100%;
+}
+}
+@media(max-width:650px){
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.category-list {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-6.map-inner-search {
+  width: 100%;
+  margin-bottom: 12px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.map-inner-search #javo-single-search-form {
+  width: 100% !important;
+  margin: 0;
+}
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.map-gride-view {
+  width: 98%;
+}
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3>.row>.col-md-4 {
+  width: 46%;
+}
+}
+@media(max-width:490px){
+form.pmpro_form select, form.pmpro_form .input {
+    width: 56%;
+}
+#pmpro_billing_address_fields select{
+width: 56%;
+}
+.pmpro_thead-msg {
+    text-align: left;
+    white-space: inherit;
+}
+.pmpro_payment-expiration label {
+    height: 55px;
+}
+.pmpro_payment-cvv small{
+    float: left;
+}
+}
+@media(max-width:480px){
+.javo-mailchimp-inner-name {
+    border-bottom: 1px solid #E5E5E5 !important;
+}
+}
+@media(max-width:420px){
+form.pmpro_form label {
+    text-align: left;
+}
+.pmpro_payment-expiration label {
+    height: auto;
+}
+form.pmpro_form select, form.pmpro_form .input {
+    width: 89%;
+}
+#pmpro_billing_address_fields select{
+width: 89%;
+}
+form.pmpro_form .pmpro_submit {
+    margin-left: 130px;
+    float: none;
+    display: table;
+    margin: 0 auto;
+    width: auto;
+}
+form.pmpro_form .pmpro_submit span {
+    float: none;
+    margin: 0 auto;
+    display: table;
+}
+}
+@media(max-width:425px){
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.map-gride-view {
+    width: 48% !important;
+}
+}
+@media(max-width:395px){
+.javo_mhome_map_lists .main-map-search-wrap>.row>.col-md-3.map-gride-view {
+    width: 47%;
+}
+}

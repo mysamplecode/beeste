@@ -1,0 +1,89 @@
+/* carousel */
+.javo_testimonial #javo_testimonial_carousel{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+/* Control buttons  */
+.javo_testimonial #javo_testimonial_carousel .carousel-control{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+.javo_testimonial #javo_testimonial_carousel .carousel-control.left{
+  left: -12px;
+  display:table;
+}
+/* Next button  */
+.javo_testimonial #javo_testimonial_carousel .carousel-control.right{
+  right: -12px !important;
+  display:table;
+}
+/* Changes the position of the indicators */
+.javo_testimonial #javo_testimonial_carousel .carousel-indicators{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+.javo_testimonial #javo_testimonial_carousel .carousel-indicators li{
+  background: #c0c0c0;
+}
+.javo_testimonial #javo_testimonial_carousel .carousel-indicators .active{
+  background: #333333;
+}
+.javo_testimonial #javo_testimonial_carousel img{
+  width: 100px;
+  height: 100px
+}
+/* End carousel */
+.javo_testimonial .item blockquote{
+    border-left: none;
+    margin: 0;
+}
+.javo_testimonial .item blockquote img{
+    margin-bottom: 10px;
+}
+.javo_testimonial .item blockquote p:before{
+	quotes: "\f10d" "\f10c" !important;
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.javo_testimonial .col-md-offset-2 h2{font-size:30px;}
+/*dot*/
+.javo_testimonial .carousel-indicators{margin-left:-30%;}
+.javo_testimonial .carousel-indicators li{margin:1px !important;}
+/**  MEDIA QUERIES */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px){
+    .javo_testimonial #javo_testimonial_carousel{
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px){
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    .javo_testimonial #javo_testimonial_carousel .carousel-indicators{
+        bottom: -5px !important;
+    }
+    .javo_testimonial #javo_testimonial_carousel .carousel-indicators li{
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .javo_testimonial #javo_testimonial_carousel .carousel-indicators li.active{
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}

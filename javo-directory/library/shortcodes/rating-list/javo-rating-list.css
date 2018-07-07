@@ -1,0 +1,21 @@
+.wpb_wrapper .rating_list{ margin: 10px 0px; padding:10px 0; border:1px #ddd solid; background:#fff;}
+.wpb_wrapper .rating_list{ margin-top:0px;}
+.wpb_wrapper .rating_list h3{ padding:0; margin:0; font-weight:bold; }
+.top-ratings-thumb{ padding-top:7px; }
+.top-ratings-thumb img { width:80px; border-radius:80px; border:5px #454545 solid; }
+.top-ratings-num {
+position: absolute;
+bottom: 10px;
+background: #454545;
+left: 7px;
+font-size:11px; padding:6px 0 0 11px; font-weight:bold; color:#fff;
+width:30px;
+height:30px;
+border-radius:50%;
+}
+
+.rating-num-10 {padding:6px 0 0 7px;}
+.rating_list .rating_ave {font-size:18px; color:#000;}
+
+
+.javo-rating-list-wrap .rating_list{ min-height:115px; }

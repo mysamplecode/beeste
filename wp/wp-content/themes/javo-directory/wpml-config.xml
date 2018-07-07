@@ -1,0 +1,66 @@
+<wpml-config>
+		<custom-types>
+		<custom-type translate="1">item</custom-type>
+		<custom-type translate="1">jv_claim</custom-type>
+		<custom-type translate="1">ratings</custom-type>
+		<custom-type translate="1">review</custom-type>
+		<custom-type translate="1">jv_events</custom-type>
+		<custom-type translate="1">jv_testimonials</custom-type>
+		<custom-type translate="1">jv_team</custom-type>
+		<custom-type translate="1">jv_partners</custom-type>
+		<custom-type translate="1">jv_faqs</custom-type>
+	</custom-types>
+
+	<taxonomies>
+		<taxonomy translate="1">item_category</taxonomy>
+		<taxonomy translate="1">item_location</taxonomy>
+		<taxonomy translate="1">jv_events_category</taxonomy>
+		<taxonomy translate="1">jv_testimonials_category</taxonomy>
+		<taxonomy translate="1">jv_team_category</taxonomy>
+		<taxonomy translate="1">jv_partners_category</taxonomy>
+		<taxonomy translate="1">jv_faq_category</taxonomy>
+	</taxonomies>
+
+	<admin-texts>
+	<key name="javo_themes_settings">
+
+		<!-- TS > General -->
+		<key name="do_not_add_item_comment" />
+
+
+		<!-- TS > Item Page -->
+		<key name="javo_custom_label">
+			<key name="about" />
+			<key name="location" />
+			<key name="events" />
+			<key name="ratings" />
+			<key name="reviews" />
+		</key>
+
+		<!-- TS > Item Fields -->
+		<key name="field_caption" />
+		<key name="custom_field" >
+			<key name="name">
+				<key name="id*" />
+				<key name="id*">
+					<key name="label" />
+				</key>
+			</key>
+		</key>
+
+
+
+
+		<key name="rating_field">
+			<key name="0"></key>
+			<key name="1"></key>
+			<key name="2"></key>
+			<key name="3"></key>
+			<key name="4"></key>
+			<key name="5"></key>
+		</key>
+		<key name="rating_alert_header" />
+		<key name="rating_alert_content" />
+	</key>
+	</admin-texts>
+</wpml-config>

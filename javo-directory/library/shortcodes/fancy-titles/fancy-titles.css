@@ -1,0 +1,79 @@
+
+
+#javo-fancy-title-section{
+	padding:15px 0;
+
+}
+
+#javo-fancy-title-section h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#javo-fancy-title-section h2:after {
+	background: #FE7E17;
+	display: block;
+	content: "";
+	height: 1px;
+	width: 120px;
+	margin: 15px auto 20px;
+	position: relative;
+}
+#javo-fancy-title-section h2.gray_circle:after{
+	position:relative;
+	background:transparent;
+}
+#javo-fancy-title-section span.gray_circle{
+	position:absolute;
+	width:6px;
+	height:6px;
+	left:50%;
+	bottom:0;
+	background:#fff;
+	margin:0 0 0 -2.5px;
+	border:solid 2px #aaa;
+	border-radius:50%;
+
+
+
+}
+#javo-fancy-title-section .hr-wrap{
+	position:relative;
+	height:20px;
+
+}
+#javo-fancy-title-section .hr-inner {
+	background-color: #fcfcfc;
+	width: 32%;
+	left: 50%;
+	margin-left: -16%;
+	border-color: #e1e1e1;
+	position: absolute;
+	height: 1px;
+	top: 50%;
+	margin-top: -1px;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+#javo-fancy-title-section .hr-inner-style{
+	background-color: #fcfcfc;
+	border-radius: 20px;
+	height: 9px;
+	width: 9px;
+	border-width: 2px;
+	border-style: solid;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -5px;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	border-color: #e1e1e1;
+
+}

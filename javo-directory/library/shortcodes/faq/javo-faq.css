@@ -1,0 +1,51 @@
+.javo-faq{margin-top: 25px; margin-bottom:25px !important; background:#fff; padding:0 5px 0 15px;}
+.javo-faq .faq-cat-content{margin-top:15px;}
+
+.javo-faq .faq-cat-tabs li a {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #777777;
+	border:none;
+}
+
+.javo-faq .nav-tabs li a:focus,
+.javo-faq .panel-heading a:focus {
+    outline: none;
+}
+
+.javo-faq .panel-heading a,
+.javo-faq .panel-heading a:hover,
+.javo-faq .panel-heading a:focus {
+    text-decoration: none;
+    color: #777777;
+}
+
+.javo-faq .faq-cat-content .panel-heading:hover {
+    background-color: #efefef;
+}
+.javo-faq .panel-faq .panel-heading .panel-title span {
+    font-size: 13px;
+    font-weight: normal;
+	margin-right:5px;
+	position:relative;
+	bottom:3px;
+}
+.javo-faq .faq-cat-tabs li a:hover{border:none; color:#a0ce4e;}
+.javo-faq .faq-cat-tabs li.active{border-top:2px solid #a0ce4e;}
+.javo-faq .faq-cat-tabs li.active>a{padding-bottom:8px;}
+.javo-faq .faq-cat-tabs li{margin-bottom:0px;}
+.javo-faq .faq-cat-tabs{border-top:1px solid #ddd; margin-bottom:0px !important;}
+.javo-faq .faq-cat-tabs li.active a{color:#a0ce4e;}
+.javo-faq .faq-cat-content .panel-faq{border-color:#fff;}
+.javo-faq .faq-cat-content .panel-faq .panel-heading{background-color:#fff; border-bottom:1px solid #eee; padding:5px 15px;}
+.javo-faq .faq-cat-content .panel-faq .panel-heading .panel-title:hover,
+.javo-faq .faq-cat-content .panel-faq .active-faq .panel-title{color:#a0ce4e; margin-bottom:5px;}
+.javo-faq .faq-cat-content .panel-faq .active-faq{border-bottom:none;}
+.javo-faq .faq-cat-content .panel-faq .active-faq .panel-title span{color:#a0ce4e;}
+.javo-faq .faq-cat-content .panel-faq .panel-title{font-size:13px; font-weight:600;}
+
+.javo-faq h4 {line-height:0.9; margin-top:0px; padding:5px 0px; color:#454545; margin-bottom:5px;}
+.javo-faq .panel {border:0px; box-shadow:none;}
+.javo-faq .panel-body p{padding: 5px 0 10px 20px; color:#aaa;}
+.javo-faq  .javo-faq-all{margin-left:0px;}
+.javo-faq .tab-content .panel-heading.active-faq{border-radius:0px;}
